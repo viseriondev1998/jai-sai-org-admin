@@ -13,7 +13,7 @@ export const RemoveAuthToken = () => {
 };
 
 export const AppBaseQuery = fetchBaseQuery({
-     baseUrl: "https://om-shanti-walfare-trust-backend-o06r.onrender.com/api/1.0",
+     baseUrl: "https://jai-sai-org-backend.onrender.com/api/1.0",
      prepareHeaders(headers, api) {
           headers.set("Authorization", GetAuthToken()?.toString() as string);
      },

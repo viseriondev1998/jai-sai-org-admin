@@ -52,7 +52,7 @@ export const DonationUserDetails = () => {
                                    </h6>
                               </div>
                               <img
-                                   src={require("../../../assets/logo.jpeg")}
+                                   src={require("../../../assets/logo.jpg")}
                                    className="rounded-full w-[150px]"
                                    alt=""
                               />
